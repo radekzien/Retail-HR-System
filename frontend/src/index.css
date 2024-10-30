@@ -1,0 +1,262 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Header */
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
+}
+
+header .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+/* Forms and Inputs */
+form {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+form h3 {
+  font-size: 22px;
+  color: #007bff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form label {
+  display: block;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+form input, form select, form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+form input:focus, form select:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+/* Section Styles */
+.addNewEmployee, .createHours, .createRole, .viewHours, .viewWeekly, .viewRota {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.addNewEmployee h2, .createHours h2, .createRole h2, .viewHours h2, .viewWeekly h2, .viewRota h2 {
+  font-size: 20px;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+/* Home */
+.home {
+  padding: 10px;
+}
+
+.home h2 {
+  font-size: 35px;
+  margin: 0px;
+  color: #007bff
+}
+.home h3 {
+  font-size: 40px; /* Increase font size for h3 */
+  margin:0; /* Adjust line height */
+  color: #007bff
+}
+
+.home h5 {
+  font-size: 20px; /* Increase font size for h5 */
+  margin:0;
+  color: #007bff;
+  font-weight: normal;
+}
+
+.home p {
+  font-size: 18px; /* Increase font size for paragraphs if needed */
+  margin:0; /* Increase line height for better readability */
+  color: #007bff
+}
+
+.Clock {
+  font-size: 30px; /* Adjust the size as needed */
+  font-weight: bold;
+  text-align: left;
+  color: #007bff
+}
+
+
+/* Centered Links Section */
+.links {
+  text-align: center; /* Center the container holding the links */
+  margin-top: 20px;
+}
+
+.links a {
+  display: block;
+  margin: 10px 0;
+  font-size: 16px;
+  text-align: centre; /* Left-align text within each link */
+  max-width: 400px; /* Adjust width to control alignment */
+  margin: 10px auto; /* Center the links horizontally */
+  font-size: 17px;
+  font-weight: bolder
+}
+
+/* Details */
+.hours-details, .weekly-details, .managers-details {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  margin-bottom: 15px;
+}
+
+.hours-details h4, .weekly-details h4, .managers-details h4 {
+  margin: 0;
+  font-size: 18px;
+  color: #007bff;
+}
+
+.hours-details p, .weekly-details p, .managers-details p {
+  margin: 5px 0;
+}
+
+.delete{
+  color: #ff4d4d;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Error Messages */
+.error {
+  color: #ff4d4d;
+  font-size: 16px;
+  padding: 10px;
+  background-color: #ffe6e6;
+  border: 1px solid #ff4d4d;
+  border-radius: 8px;
+}
+
+/* Calendar Component */
+.viewRota {
+  padding: 20px;
+}
+
+.viewRota h2 {
+  font-size: 20px;
+  color: #007bff;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+
+  .navbar h1 {
+    font-size: 20px;
+  }
+
+  .home h2{
+    font-size: 30px;
+  }
+
+  .home h3{
+    font-size: 30px;
+  }
+
+  .home h5 {
+    font-size: 10px
+  }
+
+  .links a {
+    font-size: 14px;
+  }
+
+  .Clock {
+    font-size: 20px;
+  }
+}

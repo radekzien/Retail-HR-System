@@ -1,0 +1,12 @@
+Left off at MERN AUTH part 3
+
+Just updated the routes, controller and models for employees to include login, signup, email, password
+and accessType, which will affect how the user views the app depending on their access
+
+23/09/24
+Just finished part 4, skip part 5 and go straight to part 6
+Completed validation checks for email and password
+
+24/09/24
+Just finished part 8, go to part 9
+Made context and hooks for auth. Completed Login and Signup and JWT

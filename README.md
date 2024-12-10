@@ -1,5 +1,6 @@
 # Retail-HR-System
 Timetabling and Payroll system for a retail
+The .ENV file has been REMOVED (10/12/2024)
 
 30/10/2024
 This system was created via MERN stack. At the minute it allows the user to: create new roles, create shifts, view shifts, and view a weekly payslip. I have started working on authentication but I'm at the minute taking a break from this project to focus on my studies.
